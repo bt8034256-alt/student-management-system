@@ -1,0 +1,98 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f1f5f9;
+    padding: 40px 20px;
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+h1, h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #1e293b;
+}
+
+form {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-bottom: 35px;
+}
+
+input {
+    flex: 1;
+    min-width: 150px;
+    padding: 12px;
+    border: 1px solid #cbd5e1;
+    border-radius: 5px;
+}
+
+button {
+    padding: 12px 18px;
+    border: none;
+    border-radius: 5px;
+    background: #2563eb;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #1d4ed8;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 13px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+th {
+    background: #2563eb;
+    color: white;
+}
+
+.edit {
+    background: #16a34a;
+    margin: 3px;
+}
+
+.delete {
+    background: #dc2626;
+    margin: 3px;
+}
+
+#message {
+    text-align: center;
+    margin-top: 15px;
+    color: #15803d;
+}
+
+@media (max-width: 600px) {
+    .container {
+        padding: 15px;
+        overflow-x: auto;
+    }
+
+    table {
+        min-width: 600px;
+    }
+}
